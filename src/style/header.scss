@@ -1,0 +1,22 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+.link-active {
+  color: white;
+  text-decoration: underline;
+  
+}
+.link-inactive {
+  opacity: .5;
+  color: white;
+  text-decoration: none;
+}

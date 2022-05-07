@@ -1,0 +1,19 @@
+$main-background: hsl(218, 28%, 13%);
+$footer-background: hsl(216, 53%, 9%);
+$testimonials-background: hsl(219, 30%, 18%);
+$intro: hsl(217, 28%, 15%);
+
+$cyan: hsl(176, 68%, 64%);
+$blue: hsl(198, 60%, 50%);
+$light-Red: hsl(0, 100%, 63%);
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.app{
+  background-color: $main-background;
+  color: white;
+}
+
+
